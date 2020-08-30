@@ -84,7 +84,7 @@ class Ui_dialogo(object):
 
     def retranslateUi(self, dialogo):
         _translate = QtCore.QCoreApplication.translate
-        dialogo.setWindowTitle(_translate("dialogo", "Dialog"))
+        dialogo.setWindowTitle(_translate("dialogo", "Repartir un monto en la máxima cantidad de efectivo"))
         self.label_50.setText(_translate("dialogo", "Billetes de 50 soles: "))
         self.label_5.setText(_translate("dialogo", "Monedas de 5 soles: "))
         self.label_100.setText(_translate("dialogo", "Billetes de 100 soles: "))
@@ -92,6 +92,6 @@ class Ui_dialogo(object):
         self.label_10.setText(_translate("dialogo", "Billetes de 10 soles: "))
         self.repartirButton.setText(_translate("dialogo", "Repartir"))
         self.label_2.setText(_translate("dialogo", "Monedas de 2 soles: "))
-        self.instruccionLabel.setText(_translate("dialogo", "Ingrese la cantidad que desea repartir:"))
+        self.instruccionLabel.setText(_translate("dialogo", "Ingrese la cantidad que desea repartir: S/"))
         self.exitButton.setText(_translate("dialogo", "Salir"))
         self.label_20.setText(_translate("dialogo", "Billetes de 20 soles: "))
