@@ -17,8 +17,14 @@ class DialogoReparticionBilletes(QDialog):
     def hacer_reparticion(self):
         valor_efectivo = [1, 2, 5, 10, 20, 50, 100]
         cantidad_efectivo = [0, 0, 0, 0, 0, 0, 0]
+        cantidad = 0
 
-        cantidad = int(self.dialogoVentana.cantidadInput.text())
+        try:
+            cantidad = int(self.dialogoVentana.cantidadInput.text())
+            self.dialogoVentana.showError.setText("")
+        except ValueError:
+            self.dialogoVentana.showError.setText("Cantidad vacía.")
+
         dif_operable = cantidad
 
         while (dif_operable != 0):

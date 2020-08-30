@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialogo</class>
+ <widget class="QDialog" name="dialogo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>656</width>
+    <height>340</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_50">
+   <property name="geometry">
+    <rect>
+     <x>381</x>
+     <y>190</y>
+     <width>131</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Billetes de 50 soles: </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cantidadInput">
+   <property name="geometry">
+    <rect>
+     <x>321</x>
+     <y>40</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcd_50">
+   <property name="geometry">
+    <rect>
+     <x>521</x>
+     <y>180</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcd_10">
+   <property name="geometry">
+    <rect>
+     <x>191</x>
+     <y>260</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>230</y>
+     <width>131</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Monedas de 5 soles: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_100">
+   <property name="geometry">
+    <rect>
+     <x>381</x>
+     <y>230</y>
+     <width>131</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Billetes de 100 soles: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_1">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>150</y>
+     <width>121</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Monedas de 1 sol: </string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcd_100">
+   <property name="geometry">
+    <rect>
+     <x>521</x>
+     <y>220</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcd_20">
+   <property name="geometry">
+    <rect>
+     <x>521</x>
+     <y>140</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcd_1">
+   <property name="geometry">
+    <rect>
+     <x>191</x>
+     <y>140</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>270</y>
+     <width>131</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Billetes de 10 soles: </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="repartirButton">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>90</y>
+     <width>89</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Repartir</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>190</y>
+     <width>131</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Monedas de 2 soles: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="instruccionLabel">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>50</y>
+     <width>251</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ingrese la cantidad que desea repartir:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>451</x>
+     <y>260</y>
+     <width>89</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>381</x>
+     <y>150</y>
+     <width>131</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Billetes de 20 soles: </string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcd_2">
+   <property name="geometry">
+    <rect>
+     <x>191</x>
+     <y>180</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcd_5">
+   <property name="geometry">
+    <rect>
+     <x>191</x>
+     <y>220</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="showError">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>80</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
